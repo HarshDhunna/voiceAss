@@ -106,7 +106,7 @@ function speakMessage(message)
     else if(message.includes("copy me"))
     {
         speakThis("speak now...");
-        const mytime=setTimeout(startReco,2000,recognitionForCopy)
+        const mytime=setTimeout(startReco,1400,recognitionForCopy)
         return;
     }
     else if(message.includes("how are you"))
